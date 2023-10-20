@@ -1,0 +1,18 @@
+line =row
+               Column                    
+                   ↓
+                   0  1  2  3  4  5
+        Row —> 0   0  0  0  0  0  0
+               1   0  0  0  0  0  0
+               2   0  0  0  0  0  0
+               3   0  0  0  0  0  0   
+               4   0  0  0  0  0  0
+
+Logic:
+    
+for(i=0; i<= n-1 ;i++)        // row shold be n-1 
+ {
+   for(j=0; j<=n;j++)          // column should n 
+       print(“0”)
+}
+println(“ “)                      // Print next line or space
